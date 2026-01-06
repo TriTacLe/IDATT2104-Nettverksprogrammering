@@ -1,0 +1,160 @@
+# ============================================
+# COURSE MATERIALS (Keep Private)
+# ============================================
+gatekeep/
+
+# ============================================
+# C++ BUILD ARTIFACTS
+# ============================================
+# Compiled Object files
+*.o
+*.obj
+*.ko
+*.slo
+*.lo
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled executables
+*.exe
+*.out
+*.app
+a.out
+main
+prime_finder
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Fortran module files (if using)
+*.mod
+*.smod
+
+# ============================================
+# IDE AND EDITOR FILES
+# ============================================
+# Visual Studio Code
+.vscode/
+*.code-workspace
+
+# CLion / IntelliJ
+.idea/
+cmake-build-*/
+
+# Vim
+*.swp
+*.swo
+*~
+.*.swp
+
+# Emacs
+*~
+\#*\#
+.\#*
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# ============================================
+# BUILD SYSTEMS
+# ============================================
+# CMake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+CTestTestfile.cmake
+CPackConfig.cmake
+CPackSourceConfig.cmake
+install_manifest.txt
+compile_commands.json
+
+# Make
+*.d
+.depend
+
+# Build directories
+build/
+bin/
+obj/
+out/
+debug/
+release/
+
+# ============================================
+# macOS SYSTEM FILES
+# ============================================
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# ============================================
+# TEMPORARY AND LOG FILES
+# ============================================
+*.log
+*.tmp
+*.temp
+*.bak
+*.swp
+*.cache
+
+# ============================================
+# TESTING
+# ============================================
+# Test executables
+test
+tests
+*_test
+*_tests
+test_*
+
+# Google Test
+googletest/
+gtest/
+
+# ============================================
+# DOCUMENTATION BUILD
+# ============================================
+# Doxygen
+docs/html/
+docs/latex/
+*.dox
+
+# ============================================
+# NETWORKING SPECIFIC
+# ============================================
+# Core dumps
+core
+core.*
+*.core
+
+# Valgrind output
+*.valgrind
+vgcore.*
+
+# Network capture files
+*.pcap
+*.pcapng
+
+# ============================================
+# OTHER
+# ============================================
+# Archives
+*.zip
+*.tar
+*.tar.gz
+*.rar
+
+# Node modules (if using any JavaScript tools)
+node_modules/
