@@ -1,3 +1,8 @@
+*.dSYM/
+*.o
+presentasjoner
+.vscode/
+presentasjoner/*.pdf
 # ============================================
 # COURSE MATERIALS (Keep Private)
 # ============================================
@@ -158,4 +163,4 @@ vgcore.*
 
 # Node modules (if using any JavaScript tools)
 node_modules/
-Computer Networking A Top-Down Approach.pdf
+Computer Networking A Top-Down Approach.pdf 
