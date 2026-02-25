@@ -1,0 +1,9 @@
+services:
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    container_name: ov5frontend
+    ports:
+      - "3000:5173"
+    restart: unless-stopped
