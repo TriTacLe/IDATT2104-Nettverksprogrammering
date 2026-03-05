@@ -14,7 +14,7 @@ const httpServer = net.createServer((connection) => {
     <meta charset="UTF-8" />
   </head>
   <body>
-    <h1>WebSocket test page</h1>
+    <h1>Oving 6 - WebSocket</h1>
     <input type="text" id="input">
     <button id="sendBtn">Send to server</button>
       
@@ -133,7 +133,7 @@ const wsServer = net.createServer((connection) => {
   let handshakeDone = false
   let res = "";
 
-  // Hver gang client sender data
+  // Hver gang client sender data, server mottar
   connection.on('data', (data) => {
     console.log("Server: Data from client: ", data.toString());
     if (!handshakeDone){
