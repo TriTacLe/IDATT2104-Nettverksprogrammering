@@ -200,3 +200,20 @@ wheels/
 .env
 .env.local
 .env.*.local
+
+# ============================================
+# SECURITY - NEVER COMMIT KEYS/CERTIFICATES
+# ============================================
+*.key
+*.pem
+*.crt
+*.cer
+*.der
+*.p12
+*.pfx
+*.keystore
+ovinger/programmering/ov4/server.key
+ovinger/programmering/ov4/server.crt
+certs/
+ssl/
+private/
