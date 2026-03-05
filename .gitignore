@@ -3,14 +3,10 @@
 presentasjoner
 .vscode/
 presentasjoner/*.pdf
-# ============================================
 # COURSE MATERIALS (Keep Private)
-# ============================================
 gatekeep/
 
-# ============================================
 # C++ BUILD ARTIFACTS
-# ============================================
 # Compiled Object files
 *.o
 *.obj
@@ -45,9 +41,7 @@ prime_finder
 *.mod
 *.smod
 
-# ============================================
 # IDE AND EDITOR FILES
-# ============================================
 # Visual Studio Code
 .vscode/
 *.code-workspace
@@ -71,9 +65,7 @@ cmake-build-*/
 *.sublime-project
 *.sublime-workspace
 
-# ============================================
 # BUILD SYSTEMS
-# ============================================
 # CMake
 CMakeFiles/
 CMakeCache.txt
@@ -97,6 +89,14 @@ debug/
 release/
 
 # ============================================
+# UNIGNORE OV5 PROJECT (but keep IDE files ignored)
+# ============================================
+!ovinger/programmering/ov5/
+!ovinger/programmering/ov5/**
+ovinger/programmering/ov5/**/.idea/
+ovinger/programmering/ov5/**/.vscode/
+
+# ============================================
 # macOS SYSTEM FILES
 # ============================================
 .DS_Store
@@ -106,7 +106,6 @@ release/
 
 # ============================================
 # TEMPORARY AND LOG FILES
-# ============================================
 *.log
 *.tmp
 *.temp
@@ -163,12 +162,11 @@ vgcore.*
 
 # Node modules (if using any JavaScript tools)
 node_modules/
+!ovinger/programmering/ov5/frontend/node_modules
 Computer Networking A Top-Down Approach.pdf 
-ovinger/programmering/ov5/frontend/node_modules
+!ovinger/programmering/ov5/frontend/node_modules
 
-# ============================================
 # PYTHON
-# ============================================
 __pycache__/
 *.py[cod]
 *$py.class
